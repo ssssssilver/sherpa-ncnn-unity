@@ -15,7 +15,7 @@
 - [ ] Android （待接入）
 - [ ] IOS （待接入）
 ## 效果
-<video src="https://www.youtube.com/watch?v=wFiXG0GfLdc"></video>
+[![操作演示](https://res.cloudinary.com/marcomontalbano/image/upload/v1710401471/video_to_markdown/images/youtube--wFiXG0GfLdc-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=wFiXG0GfLdc "操作演示")
 
 ## 使用说明
 1.下载需要使用的大模型文件，放到StreamingAssets文件夹下
