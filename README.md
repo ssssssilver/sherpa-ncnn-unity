@@ -24,9 +24,9 @@ Android
 
 ## 使用说明
 ### Windows
-1.下载需要使用的大模型文件，放到StreamingAssets文件夹下  
+#### 1.下载需要使用的大模型文件，放到StreamingAssets文件夹下  
 <img src="./Assets/Sherpa-ncnn/截图1.png"></img>
-2.配置路径   
+#### 2.配置路径   
 <img src="./Assets/Sherpa-ncnn/截图3.png"></img>
 #### bug fix
 windows的开发环境下，在运行时可能会闪退，是streamingassets上传的大模型文件不完整导致，可以去原作者的hugface主页下载对应的大模型  
