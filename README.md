@@ -28,6 +28,9 @@ Android
 <img src="./Assets/Sherpa-ncnn/截图1.png"></img>
 2.配置路径 
 <img src="./Assets/Sherpa-ncnn/截图3.png"></img>
+#### bug fix
+windows的开发环境下，在运行时可能会闪退，是streamingassets上传的大模型文件不完整导致，可以去原作者的hugface主页下载对应的大模型  
+https://huggingface.co/csukuangfj/sherpa-ncnn-streaming-zipformer-en-2023-02-13/tree/main  
 
 ### Android
 注意：安卓版本因为原版是通过jni生成的so库，需要JNI来桥接Unity调用。在这里我为了操作流程简单，把基本实现的逻辑都写在了Android Studio工程的代码里中，Unity只执行UI的操作与结果的获取。
