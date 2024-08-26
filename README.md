@@ -24,9 +24,9 @@ Android
 
 ## 使用说明
 ### Windows
-1.下载需要使用的大模型文件，放到StreamingAssets文件夹下
+1.下载需要使用的大模型文件，放到StreamingAssets文件夹下  
 <img src="./Assets/Sherpa-ncnn/截图1.png"></img>
-2.配置路径 
+2.配置路径   
 <img src="./Assets/Sherpa-ncnn/截图3.png"></img>
 #### bug fix
 windows的开发环境下，在运行时可能会闪退，是streamingassets上传的大模型文件不完整导致，可以去原作者的hugface主页下载对应的大模型  
@@ -34,7 +34,7 @@ https://huggingface.co/csukuangfj/sherpa-ncnn-streaming-zipformer-en-2023-02-13/
 
 ### Android
 注意：安卓版本因为原版是通过jni生成的so库，需要JNI来桥接Unity调用。在这里我为了操作流程简单，把基本实现的逻辑都写在了Android Studio工程的代码里中，Unity只执行UI的操作与结果的获取。
-开发工作流：Unity 编写好调用JNI代码->生成输出AS工程->AS工程编写业务流程代码->AS输出apk包
+开发工作流：Unity 编写好调用JNI代码->生成输出AS工程->AS工程编写业务流程代码->AS输出apk包  
 <img src="output/pic/1.jpg"></img>
 <img src="output/pic/2.jpg"></img>
 <img src="output/pic/3.jpg"></img>
